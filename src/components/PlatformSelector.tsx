@@ -22,7 +22,7 @@ const PlatformSelector = ({ onSelectedPlatform, selectedPlatform}: Props) => {
               onSelectedPlatform(platform)}} key={platform.id}>{platform.name}</MenuItem>)}
         </MenuList>
     </Menu>
-  )
+  );
 }
 
 export default PlatformSelector
