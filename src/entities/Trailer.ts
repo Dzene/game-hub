@@ -1,4 +1,5 @@
 export interface Trailer {
+  image: string | undefined;
   id: number;
   name: string;
   preview: string;
